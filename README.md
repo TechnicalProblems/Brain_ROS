@@ -46,7 +46,7 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 sudo apt-get update && sudo apt-get upgrade
 
 ## 7. Install build dependencies
-sudo apt-get install -y python-rosdep python-rosinstall-generator python-wstool python-rosinstall build-essential cmake
+sudo apt-get install -y python3-rosdep python3-rosinstall-generator python3-wstool python3-rosinstall build-essential cmake
 
 ## 8. Install pip3
 sudo apt install python3-pip
