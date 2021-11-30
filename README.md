@@ -62,6 +62,7 @@ rosdep update
 
 ## 11. Fetch and install ROS dependencies
 mkdir -p ~/ros_catkin_ws
+
 cd ~/ros_catkin_ws
 
 Lite version:
