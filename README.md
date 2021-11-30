@@ -55,7 +55,8 @@ sudo apt install python3-pip
 sudo apt install libopencv-dev python3-opencv
 
 ## 10. Setup ROS dependency sources/repos
-sudo rosdep init
+sudo rosdep init 
+
 rosdep update
 
 
