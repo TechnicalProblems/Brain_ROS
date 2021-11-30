@@ -66,12 +66,16 @@ mkdir -p ~/ros_catkin_ws
 cd ~/ros_catkin_ws
 
 Lite version:
+
 rosinstall_generator ros_comm sensor_msgs cv_bridge --rosdistro noetic --deps --wet-only --tar > noetic-ros_comm-wet.rosinstall 
+
 wstool init src noetic-ros_comm-wet.rosinstall
 
 
-Desktop version
+Desktop version:
+
 rosinstall_generator desktop --rosdistro noetic --deps --wet-only --tar > noetic-desktop-wet.rosinstall 
+
 wstool init src noetic-desktop-wet.rosinstall
 
 
